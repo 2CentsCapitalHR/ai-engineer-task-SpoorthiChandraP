@@ -1,0 +1,27 @@
+{
+    "process": "Company Incorporation",
+    "documents_uploaded": 2,
+    "required_documents": 6,
+    "missing_document": [
+        "Board Resolution",
+        "UBO Declaration Form",
+        "Register of Members and Directors",
+        "Incorporation Application Form"
+    ],
+    "issues_found": [
+        {
+            "section": "Paragraph 2",
+            "issue": "Mentions UAE Federal Court instead of ADGM Courts",
+            "severity": "High",
+            "suggestion": "Change to ADGM Courts",
+            "document": "Articles of Association"
+        },
+        {
+            "section": "Paragraph 3",
+            "issue": "Missing signature section",
+            "severity": "Medium",
+            "suggestion": "Add signature block",
+            "document": "Articles of Association"
+        }
+    ]
+}
