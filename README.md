@@ -41,8 +41,8 @@ adgm_corporate_agent/
 
 ### 1. Clone the repository or extract the ZIP
 ```bash
-git clone <repo_url>
-cd adgm_corporate_agent
+git clone https://github.com/2CentsCapitalHR/ai-engineer-task-SpoorthiChandraP.git
+cd ai-engineer-task-SpoorthiChandraP
 ```
 
 ### 2. Create a virtual environment
@@ -52,12 +52,12 @@ python -m venv venv
 
 ### 3. Activate the virtual environment
 
-# On Windows
+On Windows
 ```bash
 venv\Scripts\activate
 ```
 
-# On Mac/Linux
+On Mac/Linux
 ```bash
 source venv/bin/activate
 ```
