@@ -18,18 +18,26 @@ A Streamlit-based tool to review ADGM-related legal documents against a complian
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Screenshots
+<img width="1920" height="869" alt="Screenshot 1" src="https://github.com/user-attachments/assets/96e999cf-5121-4f7a-9d9e-983bf56b499e" />
+
+
+<img width="1920" height="873" alt="Screenshot 2" src="https://github.com/user-attachments/assets/78ce7ed9-2c1a-43c8-a9af-72c50097ba47" />
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Folder Structure
 ``` bash 
 adgm_corporate_agent/
-│ ├── main.py # Streamlit app
+│
+├── main.py # Streamlit app
 ├── requirements.txt # Python dependencies
 ├── README.md # Project instructions
-│ ├── examples/ # Original example documents ("before review")
-│ ├── aoa_bad.docx │ └── mou_good.docx
-│ ├── outputs/ # Generated outputs ("after review")
+│
+├── examples/ # Original example documents ("before review")
+│ ├── aoa_bad.docx
+│ └── mou_good.docx
+│
+├── outputs/ # Generated outputs ("after review")
 │ ├── reviewed_aoa_bad.docx
 │ ├── reviewed_mou_good.docx
 │ ├── output.json
